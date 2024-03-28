@@ -1,4 +1,7 @@
-**Date :27 March 2024**
+# Day2
+![Language](https://img.shields.io/badge/Language-Dart-green?style=flat) ![Framework](https://img.shields.io/badge/Framework-Flutter-blue?style=flat)
+
+***Date :27 March 2024***
 
 
 ### Data Types in Dart
@@ -15,7 +18,7 @@ Text(20); //Invalid
 
 - Core Data types in Dart
 
-![Data types](Notes/Media/datatypes.png)
+![Data types](Media/datatypes.png)
 
 
 ### Change Bacground Color
@@ -122,10 +125,10 @@ Widget build(context){
 
 
 - The Source code of StatelessWidget class
-![StatelessWidget source code](Notes/Media/statelesswidget.png)
+![StatelessWidget source code](Media/statelesswidget.png)
 
 
 - The build method is a abstract method of the StatelessWidget class , and the build accepts a argument of type BuildContext to track the location of a widget in the Widget tree, and the build method returns a Widget type value
 - Since build is a abstract method whenever some class extends StatelessWidget class we have to first @override and than define the build function(it is must)
 
-![Build method](Notes/Media/buildmethod.png)
+![Build method](Media/buildmethod.png)
