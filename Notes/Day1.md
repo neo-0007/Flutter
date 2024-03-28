@@ -42,7 +42,7 @@
 
 Dart and flutter code cannot be understandable by native targeted platform such as android ,ios etc. It is read from top to bottom and converted to code understable by targeted platform 
 
-![[Screenshot (21).png|500]]                                                                                                              
+![Compilation of a flutter app](Notes/Media/running.png)                                                                                                              
 
 
 
@@ -69,7 +69,7 @@ import 'package:flutter/material.dart'
        runApp();
                  }
 ```
-- runApp( ) function defination in source code ![[Screenshot (23).png]]
+- runApp( ) function defination in source code ![runApp defination in source code](Notes/Media/runApp.png)
 - To use runApp we have to import a specific file from the flutter package `import 'package:flutter/material.dart'`
 - runApp function accepts a single argument( i.e What to display ?)
 - It displays a Widget or a Widget tree(that's the argument we pass in runApp) 
@@ -78,7 +78,7 @@ import 'package:flutter/material.dart'
 - Flutter UI is made up of combination and nesting of widgets
 - Flutter provides many built-in widgets but we can build our own Widgets
 - A example of widget tree :
-  ![[Screenshot (25).png|500]]
+  ![Widget tree](Notes/Media/widgettree.png)
 - We can find built in widgets [here]([Widget catalog | Flutter](https://docs.flutter.dev/ui/widgets))
 
 
@@ -89,7 +89,7 @@ import 'package:flutter/material.dart'
 
  ### The running of a Flutter App(Summary till now) 
 
- ![[Screenshot (24).png|500]]
+ ![Running of a flutter app](Notes/Media/running2.png)
 
 ---
 ## IMPORTANT WIDGETS
